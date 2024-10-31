@@ -32,6 +32,11 @@
         .choice-button:hover {
             background-color: #373b41;
         }
+        .personality {
+            margin-top: 20px;
+            font-style: italic;
+            color: #b5bd68;
+        }
     </style>
 </head>
 <body>
@@ -39,6 +44,7 @@
         <h1>지미의 이야기</h1>
         <div id="text"></div>
         <div id="choices"></div>
+        <div id="personality"></div> <!-- 성격 분석을 표시할 영역 -->
     </div>
 
     <!-- scenes.js 파일을 포함합니다 -->
@@ -54,9 +60,17 @@
                 console.error(`장면 키 '${sceneKey}'에 해당하는 장면이 없습니다.`);
                 return;
             }
+            
+            // 텍스트와 선택지를 표시합니다
             document.getElementById('text').innerText = scene.text;
             const choicesDiv = document.getElementById('choices');
             choicesDiv.innerHTML = '';
+
+            // personality를 비우거나 표시합니다
+            const personalityDiv = document.getElementById('personality');
+            personalityDiv.innerHTML = scene.personality ? `<p class="personality">${scene.personality}</p>` : '';
+
+            // 선택지를 생성합니다
             scene.choices.forEach(choice => {
                 const button = document.createElement('button');
                 button.innerText = choice.text;

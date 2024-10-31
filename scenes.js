@@ -165,42 +165,49 @@ const scenes = {
     },
 
     // 엔딩
-    "startJourney1": {
-        "text": "식량이 부족하여 결국 지미는 탈진해 쓰러집니다. 여정이 여기서 끝납니다.",
-        "choices": [
-            { "text": "게임을 다시 시작한다.", "nextScene": "start" }
-        ]
-    },
-    "startJourney2": {
-        "text": "과다출혈로 인해 지미는 샌드크릭에 도착하지 못하고 쓰러집니다.",
-        "choices": [
-            { "text": "게임을 다시 시작한다.", "nextScene": "start" }
-        ]
-    },
-    "startJourney3": {
-        "text": "보급품이 부족하여 지미는 결국 탈진해 쓰러집니다.",
-        "choices": [
-            { "text": "게임을 다시 시작한다.", "nextScene": "start" }
-        ]
-    },
-    "startJourney4": {
-        "text": "샌드크릭으로 가는 여정이 너무 멀게 느껴집니다. 린다는 이미 죽었을지도 모릅니다. 지미는 깊은 절망에 빠집니다.",
-        "choices": [
-            { "text": "게임을 다시 시작한다.", "nextScene": "start" }
-        ]
-    },
-    "startJourney5": {
-        "text": "무기가 없는 상태에서 좀비와 마주친 지미는 싸우다 결국 목숨을 잃습니다.",
-        "choices": [
-            { "text": "게임을 다시 시작한다.", "nextScene": "start" }
-        ]
-    },
-    "startJourney8": {
-        "text": "샌드크릭으로 가는 여정이 시작됩니다. 그러나 장담할 수 없는 미래입니다.",
-        "choices": [
-            { "text": "게임을 다시 시작한다.", "nextScene": "start" }
-        ]
-    },
+"startJourney1": {
+    "text": "식량이 부족하여 결국 지미는 탈진해 쓰러집니다. 여정이 여기서 끝납니다.",
+    "choices": [
+        { "text": "게임을 다시 시작한다.", "nextScene": "start" }
+    ],
+    "personality": "당신은 신중하고 계획적인 성격입니다. 무모한 도전을 피하고 항상 대비를 우선시합니다."
+},
+"startJourney2": {
+    "text": "과다출혈로 인해 지미는 샌드크릭에 도착하지 못하고 쓰러집니다.",
+    "choices": [
+        { "text": "게임을 다시 시작한다.", "nextScene": "start" }
+    ],
+    "personality": "당신은 용감하고 목표 지향적인 성격입니다. 어려움이 있어도 목표를 향해 끝까지 나아가는 강한 의지를 지니고 있습니다."
+},
+"startJourney3": {
+    "text": "보급품이 부족하여 지미는 결국 탈진해 쓰러집니다.",
+    "choices": [
+        { "text": "게임을 다시 시작한다.", "nextScene": "start" }
+    ],
+    "personality": "당신은 대담하고 모험을 즐기는 성격입니다. 언제나 앞을 향해 나아가지만, 가끔은 준비 부족이 발목을 잡을 수 있습니다."
+},
+"startJourney4": {
+    "text": "샌드크릭으로 가는 여정이 너무 멀게 느껴집니다. 린다는 이미 죽었을지도 모릅니다. 지미는 깊은 절망에 빠집니다.",
+    "choices": [
+        { "text": "게임을 다시 시작한다.", "nextScene": "start" }
+    ],
+    "personality": "당신은 감정이 깊고 연민이 강한 성격입니다. 어려운 상황에서도 사랑하는 사람을 위한 헌신을 멈추지 않습니다."
+},
+"startJourney5": {
+    "text": "무기가 없는 상태에서 좀비와 마주친 지미는 싸우다 결국 목숨을 잃습니다.",
+    "choices": [
+        { "text": "게임을 다시 시작한다.", "nextScene": "start" }
+    ],
+    "personality": "당신은 결단력 있고 강인한 성격입니다. 어려움 속에서도 포기하지 않고 위험에 맞서 싸우는 용기를 가지고 있습니다."
+},
+"startJourney8": {
+    "text": "샌드크릭으로 가는 여정이 시작됩니다. 그러나 장담할 수 없는 미래입니다.",
+    "choices": [
+        { "text": "게임을 다시 시작한다.", "nextScene": "start" }
+    ],
+    "personality": "당신은 현실적이며 인내심이 강한 성격입니다. 미래가 불확실해도 목표를 향해 흔들림 없이 나아갑니다."
+},
+
 
 
 
