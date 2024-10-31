@@ -138,7 +138,8 @@ const scenes = {
         "text": "무기가 없어 싸움에서 패배하고 말았습니다.",
         "choices": [
             { "text": "게임을 다시 시작한다.", "nextScene": "start" }
-        ]
+        ],
+        "image": "data/bad1.png"
     },
     "searchPharmacy1": {
         "text": "약국에서 의약품을 찾았지만, 좀비에게 물렸습니다.",
@@ -151,7 +152,8 @@ const scenes = {
         "text": "응급 처치를 시도했지만 감염을 막을 수 없었습니다.",
         "choices": [
             { "text": "게임을 다시 시작한다.", "nextScene": "start" }
-        ]
+        ],
+        "image": "data/bad2.png"
     },
 
     // 린다에게 연락 시도하기 분기
@@ -199,7 +201,8 @@ const scenes = {
         "text": "군인들과의 싸움에서 지미는 중상을 입고 체포됩니다.",
         "choices": [
             { "text": "게임을 다시 시작한다.", "nextScene": "start" }
-        ]
+        ],
+        "image": "data/bad3.png"
     },
     "escapeMilitaryBase1": {
         "text": "군사기지에서 도망치는 데 성공했지만 통신 장비는 확보하지 못했습니다.",
@@ -240,7 +243,8 @@ const scenes = {
         "text": "좀비들과의 싸움에서 지미는 목숨을 잃습니다.",
         "choices": [
             { "text": "게임을 다시 시작한다.", "nextScene": "start" }
-        ]
+        ],
+        "image": "data/bad1.png"
     },
     "ignoreAlarm1": {
         "text": "경보를 무시하고 통신 장비를 사용하려 했지만, 좀비들이 몰려옵니다.",
@@ -331,7 +335,8 @@ const scenes = {
         "text": "지미는 은신처에 남아 생존자들과 새로운 삶을 시작합니다. 그러나 린다에 대한 미련은 남습니다.",
         "choices": [
             { "text": "게임을 다시 시작한다.", "nextScene": "start" }
-        ]
+        ],
+        "image": "data/bad4.png"
     },
 
     // 엔딩들
